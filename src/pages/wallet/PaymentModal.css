@@ -1,0 +1,46 @@
+.payment-modal-container{
+    background-color: black;
+    text-align: center;
+    padding: 2em;
+    
+}
+
+.payment-modal-container>h2{
+   color: white;
+   font-size: 14px;
+   margin:auto;
+}
+
+.amount-field{
+    width: 18em;
+    padding: 0.7em;
+    border: none;
+    border-radius: 6px;
+    margin-top: 1em;
+
+}
+
+.payment-modal-button{
+    width: 19.5em;
+    padding: 0.7em;
+    border: none;
+    border-radius: 6px;
+    background-color: #35b8be;
+    color:white;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.payment-modal-button:hover{
+    
+    
+    background-color: #2c9ca2;
+    color:white;
+    
+    cursor: pointer;
+}
+
+.payment-modal-image{
+    width: 8em;
+    margin-top: 1.5em;
+}

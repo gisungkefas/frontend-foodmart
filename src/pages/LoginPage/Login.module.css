@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Container*/
+.login_container {
+    display: grid;
+    background-color: rgb(235, 239, 243);
+    place-items: center;
+    font-weight: 600;
+    font-size: larger;
+    width: 30rem;
+    height: 30rem;
+    padding:50px 20px;
+    border: none;
+    margin: 80px 0px;
+    border-radius: 1rem;
+    justify-content: center;
+}
+.login_body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    margin: 1px;
+    color: #35B8BE;
+}
+
+.form-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    padding: 30px;
+    margin-right: 20px 20px;
+}
+
+.c_btn{
+display: flex;
+width: 40%;
+text-align: center;
+}
+
+.login_buttons{
+    justify-content: center;
+    margin:0px 10px;
+    width: 20rem;
+}
+    
+
+.login_buttons2{
+    /* display: flex; */
+    justify-content: center;
+    margin:0px 10px;
+    width: 20rem;
+    background-color: #f61212;
+}
+
+.login_buttons:hover{
+    background-color: #69e5eb;
+    cursor: pointer;
+}
+
+.login_buttons2:hover{
+    background-color: #69e5eb;
+    cursor: pointer;
+    background-color: #a14343;
+}
+
+.form-control {
+    font-size: 1.2rem;
+    width: 16rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input{
+    margin: 5px;
+    width: 260px;
+    height: 33px;
+    border: 1px solid #35b8be;
+    border-radius: 5px;
+}
+
+.mb-3:hover{
+    border: 2px solid #35B8BE;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: small;
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    font-weight: bold;
+
+}
+
+ #submit {
+    background-color:rgb(136, 204, 204);
+    margin: 30px;
+} 
+
+
+#submit:hover {
+    background-color: rgb(157, 233, 233);
+}
+
+#submit:active {
+    background-color: rgb(136, 204, 204)
+}
+
+.btn-secondary {
+    background-color: #f44336;
+    color: white;
+    margin: 30px;
+}
+
+.btn-secondary:hover {
+    background-color: #da190b;
+
+}
+
+.login_small{
+    text-align: center;
+    margin-left: 10px;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.login_small a:hover{
+    text-align: center;
+    margin-left: 10px;
+    font-size: medium;
+    color: blue;
+}

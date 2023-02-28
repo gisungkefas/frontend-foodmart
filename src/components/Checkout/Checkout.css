@@ -1,0 +1,317 @@
+
+.body{
+    /* box-sizing: none; */
+    /* background-color: #f5fbfc; */
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: #f5fbfc; */
+}
+
+.main--checkout--div{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* border: 1px solid red; */
+    height: 700px;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: #f5fbfc;
+    /* z-index: 3; */
+    /* background-image: url("../../assets/images/background--img.svg"); */
+    width: 95%;
+    margin-bottom: 0px;
+    height: fit-content;
+}
+
+.right--checkout{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    width: 30%;
+    border-radius: 6px;
+}
+
+.left--checkout{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    width: 65%;
+}
+
+.input--checkout-style{
+   display: flex;
+   justify-content: space-between;
+   background-color: red;
+   border: 1px solid green;
+   border: 1px solid lightgray;
+   margin-top: 8px;
+   background-color: white;
+   padding: 20px 15px;
+}
+
+.apple--logo{
+    border: 1px solid blue;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 100px;
+
+}
+.product--order{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    background-color: white;
+    padding: 5px 15px;
+}
+
+.product--order span{
+padding-top: 15px;
+}
+.classic--burger{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.classic--burger span{
+    padding-top: 4px;
+
+}
+
+
+.product--div{
+    display: flex; 
+}
+
+.product--div img{
+    width: 20%;
+}
+
+.product--dix{
+    display: flex;
+}
+
+.product--dix img{
+width: 10%;
+}
+
+.classic--rice span{
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+
+.input--checkout-order{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    border: 1px solid green;
+    border: 1px solid lightgray;
+    margin-top: 8px;
+    background-color: white;
+    padding: 20px 15px; 
+}
+.order--details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+    border: 1px solid green;
+    border: 1px solid lightgray;
+    background-color: white;
+    padding: 20px 15px; 
+}
+
+.order--details input:hover{
+    cursor:context-menu;
+}
+.provix{
+    display: flex;
+    margin-top: 20px;  
+}
+
+.singx1{
+   display: flex; 
+   flex-direction: column;
+   width: 30%;
+}
+.singx2{
+    display: flex; 
+    flex-direction: column;
+    margin-left: 20px;
+   width: 80%;
+   margin-top: 9px;
+   /* height: 500px; */
+
+ }
+
+ .select78uj{
+    height: 50px;
+    width: 93%;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding-left: 15px 15px;
+    /* margin-top: 0px; */
+    border: 1px solid lightgrey;;
+ }
+
+ /* .select78uj:hover{
+    
+ } */
+
+ .order--details input{
+    width: 93%;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 15px 15px;
+    border: 1px solid lightgrey;
+    background-color: lightgray;
+}
+
+ .singx2 h4{
+margin-left: 20px;
+margin-bottom: 10px;
+padding: 15px,10px;
+/* height: 200px; */
+width: 100%;
+ }
+
+ .singx1 input{
+    width: 100%;
+ }
+
+.input--checkout-style1{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    border: 1px solid green;
+    border: 1px solid lightgray;
+    margin-top: 0px;
+    background-color: white;
+    padding: 20px 15px;
+}
+.input--checkout-style1 h2{
+padding-left: 70px;
+}
+.left-checkout-summary{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    border: 1px solid green;
+    border: 1px solid lightgray;
+    margin-top: 0px;
+    background-color: white;
+    padding: 20px 15px;
+}
+.buttonxx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 98%;
+    border-radius: 6px;
+    margin-top: 0px;
+    color:white;
+    font-size: 25px;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-weight: 400;
+    text-decoration: none;
+     height: 80px;
+    margin-left: 4px;
+    text-decoration: none;
+    background-color: #35b8be;
+    font-family:'Lexend Deca', sans-serif;
+    background-image: url("../../assets/images/tumbprint.svg");
+}
+.jkgbyg{
+    text-decoration: none;
+}
+
+.buttonxx:hover{
+    cursor: grab;
+    color: #546285;
+    text-decoration: none;
+}
+
+.input--checkout-shipping{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    border: 1px solid green;
+    border: 1px solid lightgray;
+    margin-top: 0px;
+    background-color: white;
+    padding: 20px 15px;
+}
+
+.radio-buttonxx{
+    display: flex;
+    /* margin-top: 1px; */
+    justify-content: space-between;
+
+}
+
+.radio-buttonxx input{
+margin-left: 0px;
+}
+
+.inpxder{
+    display: flex;
+
+}
+
+.xfsfgsgd p{
+    margin-top: 5px ;
+}
+.xzf{
+    text-align: left;
+    width: 200px;
+}
+.xzcnfjrj{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.paymentxvsdb{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border: 1px solid green;
+    border: 1px solid lightgray;
+    align-items: center;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 8px;
+    background-color: white;
+    padding: 20px 15px; 
+}
+.linkxghsg{
+    text-decoration: none;
+    color: white;
+}
+.paymentxvsdb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 50%;
+    border-radius: 6px;
+    margin-top: 0px;
+    /* background-color: white; */
+    margin-top: 20px;
+    /* margin-left: 10px; */
+    background-color: #35b8be;
+    font-family:'Lexend Deca', sans-serif;
+    background-image: url("../../assets/images/tumbprint.svg");
+}
+.paymentxvsdb:hover{
+    color: #546285 ;
+}

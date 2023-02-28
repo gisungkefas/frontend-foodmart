@@ -1,0 +1,104 @@
+ .right-side-navbar{
+    padding-left: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    /* width: 100%; */
+    /* justify-content:; */
+    
+}
+.logo{
+    display: flex;
+}
+
+
+
+.hlogo{
+    margin: 25px 25px 10px 0;
+    font-weight: 600;
+    color: #35b8be;
+}
+
+.searchbar{
+   height: 40px; 
+   width: 170px;
+   border: none;
+   border-radius: 5px;
+   margin: 5px;
+}
+
+.searchbar:hover{
+    border: 1px solid #35b8be;;
+    
+}
+
+.btnsearch{
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    width: 30%;
+}
+
+
+/*
+.right-side-nav-content1{
+    padding-left: 100px;
+}
+
+.right-side-nav-content12{
+    padding-left: 100px;
+}
+ */
+
+
+ .logoimageloginnav{
+    height: 60px;
+}
+
+.right-side-navbar > li{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.cart-navbar-mycart{
+    background-color: #35b8be;
+    min-width: 55px;
+    min-height: 55px;
+    padding: 13px;
+    position: relative;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 18px;
+}
+
+.cartsuperscript{
+    color: #35b8be;
+    font-size: 13px;
+    background-color: white;
+    border-radius: 50%;
+    top: -6px;
+    right: -6px;
+    bottom: auto;
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    min-width: 25px;
+    
+
+} 
+
+/* .badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: #c67605;
+  }
+  */

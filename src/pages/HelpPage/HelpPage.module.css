@@ -1,0 +1,69 @@
+.container {
+    background-color: #F0F8FF;
+    box-sizing: border-box;
+    height: 47vh;
+    animation: rotate 6s infinite alternate linear;
+
+}
+
+.help_header {
+    width: 20%;
+    /* background-color: aqua; */
+    /* margin-right: 5px; */
+    font-weight: 900;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.help_body {
+    align-items: center;
+    justify-content: center;
+}
+
+.h2h {
+    width: 100%;
+    margin: 5px;
+}
+
+.img_icon {
+    height: 50px;
+    width: 35px;
+    margin: 10px;
+}
+
+.title2 {
+    text-align: center;
+    margin: px auto;
+    font-weight: 700;
+    /* background-color: rgb(175, 196, 196); */
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+
+}
+
+.li_text {
+    box-shadow: 1px 1px 5px 5px #dee2e6;
+    width: 30%;
+    height: 30vh;
+    padding: 30px;
+    margin: 90px auto;
+    background-color: #ffff;
+    text-align: center;
+    /* background: transparent; */
+    border-radius: 8px;
+}
+
+.p_text {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.sub_btn {
+    color: #ffff;
+    border: none;
+    background-color: #0d6efd;
+    padding: 5px;
+    border-radius: 5px;
+}
